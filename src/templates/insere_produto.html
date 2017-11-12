@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container page-form">
+    <form id="login-form" action="/auth/produto" method="post">
+        <div class="form-group">
+            <label for="Nome">Nome</label>
+            <input type="text" id="Nome" class="form-control" name="Nome">
+        </div>
+        <div class="form-group">
+            <label for="Preco">Preco</label>
+            <input type="Preco" id="Preco" class="form-control" name="Preco">
+        </div>
+        <div class="form-group">
+            <label for="Descricao">Descricao</label>
+            <input type="Descricao" id="Descricao" class="form-control" name="Descricao">
+        </div>
+
+        <button type="submit" class="btn btn-success">Cadastrar</button>
+    </form>
+</div>
+{% endblock %}

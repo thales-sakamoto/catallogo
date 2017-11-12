@@ -1,0 +1,10 @@
+<div class="top-pad">
+    {% for product in products %}
+      <div class="well">
+        <h2>
+          <a>{{ product['nome'] }}</a>
+          <small>$ {{ product['preco'] }}</small>
+        </h2>
+      </div>
+    {% endfor %}
+  </div>

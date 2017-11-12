@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Theme Company</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    .jumbotron {
+      background-color: #009933;
+      color: #fff;
+      padding: 50px 25px;
+    }
+    .logo-small {
+    color: #0A2134;
+    font-size: 75px;
+    }
+
+    .logo {
+    color: #2984CE;
+    font-size: 200px;
+    }
+    .row{
+    background-color: #FFFFFF;
+    }
+
+    @media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    }
+
+    </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Catallogo</h1>
+  <p>Somos uma Empresa de Logística Reversa</p>
+</div>
+
+
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Quem Somos</h2>
+      <h4>blablabla</h4>
+      <p>blablabla</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Nossos Valores</h2>
+      <h4><strong>MISSÃO:</strong> blablabla</h4>
+      <p><strong>VISÃO:</strong> blablabla</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid text-center">
+  <h2>Diferenciais</h2>
+  <h4>Por que fazer parte?</h4>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>Ambientalmente Responsável</h4>
+      <p>blablabla</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>Socialmente Responsável</h4>
+      <p>blablabla</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>Trabalho Duro</h4>
+      <p>blablabla</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+{% endblock %}
